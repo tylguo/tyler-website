@@ -1,7 +1,6 @@
 .App {
   text-align: center;
-  color: red;
-  background-color: rgb(142, 149, 160);
+  color: black;
 }
 
 .App-logo {
@@ -11,6 +10,10 @@
 
 .Home {
   text-align: center;
+}
+.Project {
+  text-align: left;
+  color:rgb(31, 22, 22)
 }
 
 @media (prefers-reduced-motion: no-preference) {
