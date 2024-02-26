@@ -7,7 +7,7 @@ export const MyProjects = () => {
             <div style={{ textAlign: 'center' }}>
                 <h1>My Projects</h1>
             </div>
-            <div className="project">
+            <div style={{color: 'indianred'}} className="project">
                 <h2>Housing Price Prediction Model</h2>
                 <p>Nov 2023 — Dec 2023</p>
                 <ul>
@@ -17,7 +17,7 @@ export const MyProjects = () => {
                 </ul>
                 <p>Technologies: R, ggplot2, dplyr</p>
             </div>
-            <div className="project">
+            <div style={{color: 'indianred'}} className="project">
                 <h2>WNBA Game Prediction Model</h2>
                 <p>Oct 2023</p>
                 <ul>
