@@ -20,13 +20,13 @@ export const Home = () => {
         setDisplay(inputBox)
     }
 
-    const handleChange = (event) => {
+    function handleChange(event) {
         setInputColor(event.target.value);
-    };
+    }
 
-    const handleSubmit = () => {
+    function handleSubmit() {
         setDisplayText(inputColor);
-    };
+    }
 
     return (
         <div className='Home'>
@@ -37,7 +37,7 @@ export const Home = () => {
             <p>{display}</p>
             <input value={inputBox} onChange = {handleTyping}/>
             <button onClick={displayParagraph}>Submit form</button> */}
-            
+
             <p>Please input a color:</p>
             <input
                 type='text'
