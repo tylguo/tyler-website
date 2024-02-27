@@ -7,7 +7,7 @@ import { Error } from './components/error';
 import { Header } from './components/header';
 import { MyProjects } from './components/myProjects';
 import { OtherWebsites } from './components/otherWebsites';
-
+import { Footer } from './components/footer';
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
             <Route path='/*' element={<Error/>}/>
           </Routes>
       </Router>
+      <Footer/>
     </div>
   );
 }

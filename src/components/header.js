@@ -5,7 +5,7 @@ import "../styles/header.css"
 export const Header = () => {
     return (
         <header>
-            <h1>Welcome to my Website</h1>
+            <h1 style={{ color: "#fff" }}>Welcome to my Website</h1>
             <nav>
                 <a href = "/">Home</a>
                 <a href = "/aboutme">About Me</a>

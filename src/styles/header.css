@@ -4,12 +4,12 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    background-color: beige;
+    background-color: rgb(39, 39, 39);
 }
 
 nav a{
     margin: 0 10px;
-    color:indianred;
+    color:#fff;;
 }
 
 nav a:hover {
