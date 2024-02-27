@@ -6,6 +6,7 @@ import { AboutMe } from './components/aboutMe';
 import { Error } from './components/error';
 import { Header } from './components/header';
 import { MyProjects } from './components/myProjects';
+import { OtherWebsites } from './components/otherWebsites';
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Route path='/' element={<Home/>}/>
             <Route path='/aboutme' element={<AboutMe/>}/>
             <Route path='/myprojects' element={<MyProjects/>}/>
+            <Route path='/otherwebsites' element={<OtherWebsites/>}/>
             <Route path='/*' element={<Error/>}/>
           </Routes>
       </Router>

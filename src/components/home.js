@@ -3,22 +3,22 @@ import '../App.css'
 import { useState } from 'react';
 
 export const Home = () => {
-    const [clicked, setClicked] = useState(0);
-    const [inputBox, setInputBox] = useState('');
-    const [display, setDisplay] = useState('');
+    // const [clicked, setClicked] = useState(0);
+    // const [inputBox, setInputBox] = useState('');
+    // const [display, setDisplay] = useState('');
 
     const [inputColor, setInputColor] = useState('');
     const [displayText, setDisplayText] = useState('');
 
-    function handleClick() {
-        setClicked(clicked + 1)
-    }
-    function handleTyping(event) {
-        setInputBox(event.target.value)
-    }
-    function displayParagraph() {
-        setDisplay(inputBox)
-    }
+    // function handleClick() {
+    //     setClicked(clicked + 1)
+    // }
+    // function handleTyping(event) {
+    //     setInputBox(event.target.value)
+    // }
+    // function displayParagraph() {
+    //     setDisplay(inputBox)
+    // }
 
     function handleChange(event) {
         setInputColor(event.target.value);
